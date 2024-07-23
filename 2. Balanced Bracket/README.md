@@ -1,0 +1,3 @@
+The complexity of my solution for BalancedBracked is O(n+1) which is linear complexity and this is the lowest complexity as far I know.
+The solution is execution within single loop of input range.
+For example if we have input 10 brackets, the solution will go to loop for each bracket to compare the bracket with a sequence that we reserve or keep the sequence of the brackets; if there is open pair of the closed bracket, remove that last bracket from the sequence so we can examine the brackets that appear before it with next bracket. On the final solution we need to examine the lenght of the sequence that we already reserved. If the sequence is empty it's mean the input is have all their pair, otherwise it's does'nt
